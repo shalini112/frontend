@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <filter id="prefix__a" width="111.9%" height="108.8%" x="-6%" y="-4.4%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="prefix__b" d="M3.017.4c.46 0 .833.347.833.774v.581h4.3v-.581c0-.427.373-.774.833-.774h.034c.46 0 .833.347.833.774v.581h.917c.46 0 .833.347.833.774v8.297c0 .428-.373.774-.833.774H1.233c-.46 0-.833-.346-.833-.774V2.529c0-.427.373-.774.833-.774h.917v-.581c0-.427.373-.774.833-.774zM10.2 4.092H1.8v6.285h8.4V4.092zM4.392 7.51c.073 0 .133.056.133.124V8.98c0 .068-.06.124-.133.124h-1.45c-.074 0-.134-.056-.134-.124V7.633c0-.068.06-.124.134-.124zm2.333 0c.074 0 .133.056.133.124V8.98c0 .068-.06.124-.133.124h-1.45c-.074 0-.133-.056-.133-.124V7.633c0-.068.06-.124.133-.124zm2.333 0c.074 0 .134.056.134.124V8.98c0 .068-.06.124-.134.124h-1.45c-.073 0-.133-.056-.133-.124V7.633c0-.068.06-.124.133-.124zM4.392 5.342c.073 0 .133.056.133.124v1.347c0 .068-.06.123-.133.123h-1.45c-.074 0-.134-.055-.134-.123V5.466c0-.068.06-.124.134-.124zm2.333 0c.074 0 .133.056.133.124v1.347c0 .068-.06.123-.133.123h-1.45c-.074 0-.133-.055-.133-.123V5.466c0-.068.06-.124.133-.124zm2.333 0c.074 0 .134.056.134.124v1.347c0 .068-.06.123-.134.123h-1.45c-.073 0-.133-.055-.133-.123V5.466c0-.068.06-.124.133-.124z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#prefix__a)" transform="translate(-18 -221)">
+        <g transform="translate(19 222)">
+            <mask id="prefix__c" fill="#fff">
+                <use xlink:href="#prefix__b"/>
+            </mask>
+            <use fill="#000" fill-rule="nonzero" xlink:href="#prefix__b"/>
+            <g fill="#999" mask="url(#prefix__c)">
+                <path d="M0 0H14V14H0z" transform="translate(-1 -1)"/>
+            </g>
+        </g>
+    </g>
+</svg>

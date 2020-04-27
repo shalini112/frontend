@@ -1,0 +1,31 @@
+[
+
+    {
+        "date":"08",
+        "day":"Monday"
+    },
+    {
+        "date":"09",
+        "day":"Tuesday"
+    },
+    {
+        "date":"10",
+        "day":"Wednesday"
+    },
+    {
+        "date":"11",
+        "day":"Thrusday"
+    },
+    {
+        "date":"12",
+        "day":"Friday"
+    },
+    {
+        "date":"13",
+        "day":"Saturday"
+    },
+    {
+        "date":"14",
+        "day":"Sunday"
+    }
+]
